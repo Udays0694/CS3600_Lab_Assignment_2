@@ -1,0 +1,578 @@
+<!-- Name: Uday Singh -->
+<!-- Course: Database Systems [CS3600]-->
+<!-- Lab Assignment 2: Personal Website using HTML, Bootstrap and CSS-->
+<!-- Date: September 28, 2026-->
+<!-- Submitted to: Mr. Hasan Rahman-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Personal portfolio website of Uday Singh, a Computer Science and Cybersecurity student interested in software development, cybersecurity, data science, artificial intelligence, and machine learning."
+    >
+
+    <meta
+        name="author"
+        content="Uday Singh"
+    >
+
+    <title>Uday Singh | Personal Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+
+    <!-- Custom CSS -->
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+</head>
+
+
+<body>
+
+    <!-- =========================================================
+         HEADER AND NAVIGATION
+    ========================================================== -->
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+            <div class="container">
+
+                <!-- Portfolio Logo -->
+                <a
+                    class="navbar-brand fw-bold"
+                    href="index.html"
+                    aria-label="Uday Singh Home"
+                >
+                    US
+                </a>
+
+                <!-- Mobile Navigation Button -->
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <!-- Navigation Links -->
+                <div
+                    class="collapse navbar-collapse"
+                    id="mainNavbar"
+                >
+
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="index.html"
+                            >
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="about.html"
+                            >
+                                About
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="portfolio.html"
+                            >
+                                Portfolio
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="contact.html"
+                            >
+                                Contact
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="signin.html"
+                            >
+                                Sign In
+                            </a>
+                        </li>
+
+                        <li class="nav-item ms-lg-2">
+                            <a
+                                class="btn signup-btn"
+                                href="signup.html"
+                            >
+                                Sign Up
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+
+
+    <!-- =========================================================
+         MAIN CONTENT
+    ========================================================== -->
+    <main>
+
+        <!-- =====================================================
+             HERO SECTION
+        ====================================================== -->
+        <section class="hero-section">
+
+            <div class="container">
+
+                <div class="row align-items-center min-vh-75">
+
+                    <!-- Hero Text -->
+                    <div class="col-lg-6 text-center text-lg-start hero-text">
+
+                        <p class="hero-greeting">
+                            <i class="bi bi-emoji-smile me-2"></i>
+                            Hello, I'm
+                        </p>
+
+                        <h1 class="hero-title">
+                            Uday Singh
+                        </h1>
+
+                        <h2 class="hero-subtitle">
+                            Computer Science &amp; Cybersecurity Student
+                        </h2>
+
+                        <p class="hero-description">
+                            I am passionate about computer science, cybersecurity,
+                            software development, data science, artificial intelligence,
+                            and modern web technologies. I enjoy learning how technology
+                            can be used to solve meaningful and practical problems.
+                        </p>
+
+
+                        <!-- Hero Buttons -->
+                        <div class="hero-buttons">
+
+                            <a
+                                href="portfolio.html"
+                                class="btn hero-primary-btn"
+                            >
+                                <i class="bi bi-briefcase-fill me-2"></i>
+                                View Portfolio
+                            </a>
+
+                            <a
+                                href="contact.html"
+                                class="btn hero-secondary-btn"
+                            >
+                                <i class="bi bi-envelope-fill me-2"></i>
+                                Contact Me
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Hero Visual -->
+                    <div class="col-lg-6 text-center hero-visual">
+
+                        <div class="profile-wrapper">
+
+                            <!-- Decorative Rings -->
+                            <div class="profile-ring profile-ring-one"></div>
+
+                            <div class="profile-ring profile-ring-two"></div>
+
+
+                            <!-- Profile Picture -->
+                            <div class="profile-circle">
+
+                                <img
+                                    src="images/profile.png"
+                                    alt="Profile picture of Uday Singh"
+                                    class="profile-image"
+                                >
+
+                            </div>
+
+
+                            <!-- Floating Skills -->
+                            <div class="skill-badge skill-one">
+                                <i class="bi bi-code-slash"></i>
+                                Web Development
+                            </div>
+
+                            <div class="skill-badge skill-two">
+                                <i class="bi bi-filetype-py"></i>
+                                Python
+                            </div>
+
+                            <div class="skill-badge skill-three">
+                                <i class="bi bi-shield-lock-fill"></i>
+                                Cybersecurity
+                            </div>
+
+                            <div class="skill-badge skill-four">
+                                <i class="bi bi-robot"></i>
+                                AI &amp; ML
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             INTRODUCTION SECTION
+        ====================================================== -->
+        <section class="home-introduction py-5">
+
+            <div class="container">
+
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-10 text-center">
+
+                        <span class="section-label">
+                            Welcome to My Portfolio
+                        </span>
+
+                        <h2 class="section-title mt-2">
+                            Exploring Technology Through Learning and Creativity
+                        </h2>
+
+                        <p class="section-description">
+                            Technology continues to transform the way people communicate,
+                            work, learn, and solve problems. My goal is to continue
+                            developing strong technical skills while gaining practical
+                            experience in areas such as software development,
+                            cybersecurity, artificial intelligence, databases, and data
+                            analysis.
+                        </p>
+
+                        <p class="section-description">
+                            Through coursework and personal projects, I have had the
+                            opportunity to work with programming languages, development
+                            tools, database technologies, machine learning concepts, and
+                            cybersecurity principles. Each project helps me strengthen my
+                            problem-solving abilities and better understand how different
+                            areas of computing connect with one another.
+                        </p>
+
+                        <p class="section-description">
+                            I created this website as a personal portfolio where visitors
+                            can learn more about my background, explore my work, and
+                            contact me. Use the navigation menu above to visit the About,
+                            Portfolio, Contact, Sign In, and Sign Up pages.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             INTEREST AREAS
+        ====================================================== -->
+        <section class="interest-section py-5">
+
+            <div class="container">
+
+                <div class="text-center mb-5">
+
+                    <span class="section-label">
+                        Areas of Interest
+                    </span>
+
+                    <h2 class="section-title">
+                        What I Enjoy Working On
+                    </h2>
+
+                </div>
+
+
+                <div class="row g-4">
+
+                    <!-- Software Development -->
+                    <div class="col-md-6 col-lg-3">
+
+                        <article class="interest-card h-100">
+
+                            <div class="interest-icon">
+                                <i class="bi bi-code-square"></i>
+                            </div>
+
+                            <h3>
+                                Software Development
+                            </h3>
+
+                            <p>
+                                Building structured and useful applications while
+                                strengthening programming, debugging, and
+                                problem-solving skills.
+                            </p>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- Cybersecurity -->
+                    <div class="col-md-6 col-lg-3">
+
+                        <article class="interest-card h-100">
+
+                            <div class="interest-icon">
+                                <i class="bi bi-shield-check"></i>
+                            </div>
+
+                            <h3>
+                                Cybersecurity
+                            </h3>
+
+                            <p>
+                                Learning security principles, digital forensics,
+                                secure computing practices, and methods for protecting
+                                information systems.
+                            </p>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- AI and Machine Learning -->
+                    <div class="col-md-6 col-lg-3">
+
+                        <article class="interest-card h-100">
+
+                            <div class="interest-icon">
+                                <i class="bi bi-cpu-fill"></i>
+                            </div>
+
+                            <h3>
+                                AI &amp; Machine Learning
+                            </h3>
+
+                            <p>
+                                Exploring machine learning, deep learning, data
+                                processing, and intelligent systems using modern
+                                programming tools.
+                            </p>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- Data and Databases -->
+                    <div class="col-md-6 col-lg-3">
+
+                        <article class="interest-card h-100">
+
+                            <div class="interest-icon">
+                                <i class="bi bi-database-fill"></i>
+                            </div>
+
+                            <h3>
+                                Data &amp; Databases
+                            </h3>
+
+                            <p>
+                                Working with structured data, SQL, database concepts,
+                                analysis techniques, and data-driven problem solving.
+                            </p>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             CALL TO ACTION
+        ====================================================== -->
+        <section class="home-cta py-5">
+
+            <div class="container">
+
+                <div class="cta-box text-center">
+
+                    <h2>
+                        Interested in Learning More?
+                    </h2>
+
+                    <p>
+                        Visit my portfolio to explore my work, or use the contact page
+                        to send me a message.
+                    </p>
+
+                    <div class="mt-4">
+
+                        <a
+                            href="portfolio.html"
+                            class="btn hero-primary-btn"
+                        >
+                            Explore Portfolio
+                        </a>
+
+                        <a
+                            href="contact.html"
+                            class="btn hero-secondary-btn ms-sm-2"
+                        >
+                            Get in Touch
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================== -->
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="row align-items-center gy-3">
+
+                <div class="col-lg-5 text-center text-lg-start">
+
+                    <h3 class="footer-name">
+                        Uday Singh
+                    </h3>
+
+                    <p class="footer-description mb-0">
+                        Personal Portfolio Website
+                    </p>
+
+                </div>
+
+
+                <div class="col-lg-7">
+
+                    <nav
+                        class="footer-navigation"
+                        aria-label="Footer navigation"
+                    >
+
+                        <ul class="footer-menu">
+
+                            <li>
+                                <a href="terms.html">
+                                    Terms and Conditions
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="privacy.html">
+                                    Privacy Policy
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="cookies.html">
+                                    Cookie Policy
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </nav>
+
+                </div>
+
+            </div>
+
+
+            <hr class="footer-divider">
+
+
+            <div class="text-center">
+
+                <p class="copyright mb-0">
+                    &copy; 2026 Uday Singh. All rights reserved.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================================================
+         BOOTSTRAP JAVASCRIPT
+    ========================================================== -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1107 @@
+<!-- Name: Uday Singh -->
+<!-- Course: Database Systems [CS3600]-->
+<!-- Lab Assignment 2: Personal Website using HTML, Bootstrap and CSS-->
+<!-- Date: September 28, 2026-->
+<!-- Submitted to: Mr. Hasan Rahman-->
+ 
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Portfolio of Uday Singh featuring work and interests in web development, database systems, Python, data analysis, cybersecurity, artificial intelligence, machine learning, and deep learning."
+    >
+
+    <meta
+        name="author"
+        content="Uday Singh"
+    >
+
+    <title>Portfolio | Uday Singh</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+
+    <!-- Custom CSS -->
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+</head>
+
+
+<body>
+
+    <!-- =========================================================
+         HEADER AND NAVIGATION
+    ========================================================== -->
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+            <div class="container">
+
+                <a
+                    class="navbar-brand fw-bold"
+                    href="index.html"
+                    aria-label="Uday Singh Home"
+                >
+                    US
+                </a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div
+                    class="collapse navbar-collapse"
+                    id="mainNavbar"
+                >
+
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="index.html"
+                            >
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="about.html"
+                            >
+                                About
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="portfolio.html"
+                            >
+                                Portfolio
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="contact.html"
+                            >
+                                Contact
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="signin.html"
+                            >
+                                Sign In
+                            </a>
+                        </li>
+
+                        <li class="nav-item ms-lg-2">
+                            <a
+                                class="btn signup-btn"
+                                href="signup.html"
+                            >
+                                Sign Up
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+
+
+    <!-- =========================================================
+         MAIN CONTENT
+    ========================================================== -->
+    <main>
+
+        <!-- =====================================================
+             PORTFOLIO PAGE HERO
+        ====================================================== -->
+        <section class="page-hero">
+
+            <div class="container">
+
+                <span class="section-label text-white">
+                    My Work
+                </span>
+
+                <h1>
+                    Portfolio
+                </h1>
+
+                <p>
+                    Explore the technical areas, academic work, and project categories
+                    that represent my interests in computing, data, cybersecurity,
+                    artificial intelligence, and software development.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             PORTFOLIO INTRODUCTION
+        ====================================================== -->
+        <section class="content-section">
+
+            <div class="container">
+
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-10 text-center">
+
+                        <span class="section-label">
+                            Project Overview
+                        </span>
+
+                        <h2 class="section-title">
+                            Building Skills Through Practical Work
+                        </h2>
+
+                        <p class="section-description">
+                            My portfolio represents a combination of academic assignments,
+                            programming practice, technical exploration, and project-based
+                            learning. Each area has helped me strengthen a different part of
+                            my technical foundation while improving my ability to solve
+                            problems in a structured and thoughtful way.
+                        </p>
+
+                        <p class="section-description">
+                            I enjoy working across several areas of computing, including
+                            web development, databases, Python programming, cybersecurity,
+                            data analysis, artificial intelligence, machine learning, and
+                            deep learning. Working with different technologies has helped
+                            me understand how software, data, and security concepts connect
+                            with one another.
+                        </p>
+
+                        <p class="section-description">
+                            The project categories below highlight the types of work I have
+                            been exploring and the technical skills I continue to develop.
+                            My goal is to keep expanding this portfolio as I gain more
+                            experience and complete new projects.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             PROJECT CARDS
+        ====================================================== -->
+        <section class="interest-section py-5">
+
+            <div class="container">
+
+                <div class="text-center mb-5">
+
+                    <span class="section-label">
+                        Featured Areas
+                    </span>
+
+                    <h2 class="section-title">
+                        Projects and Technical Experience
+                    </h2>
+
+                    <p class="section-description">
+                        These categories represent some of the main areas in which I have
+                        completed coursework, built projects, or developed practical
+                        technical skills.
+                    </p>
+
+                </div>
+
+
+                <div class="row g-4">
+
+                    <!-- Web Development -->
+                    <div class="col-md-6 col-lg-4">
+
+                        <article class="portfolio-card">
+
+                            <div class="portfolio-card-body">
+
+                                <div class="interest-icon">
+                                    <i class="bi bi-window"></i>
+                                </div>
+
+                                <span class="section-label">
+                                    Web Development
+                                </span>
+
+                                <h3>
+                                    Responsive Portfolio Websites
+                                </h3>
+
+                                <p>
+                                    Designing responsive websites with HTML, CSS,
+                                    Bootstrap, structured navigation, forms, reusable
+                                    layouts, and visually consistent user interfaces.
+                                </p>
+
+                                <p>
+                                    This area has helped me improve my understanding of
+                                    front-end structure, responsive design, page linking,
+                                    navigation states, and web accessibility principles.
+                                </p>
+
+                                <div class="mt-3">
+                                    <span class="badge text-bg-light me-1">
+                                        HTML
+                                    </span>
+
+                                    <span class="badge text-bg-light me-1">
+                                        CSS
+                                    </span>
+
+                                    <span class="badge text-bg-light">
+                                        Bootstrap
+                                    </span>
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- Database Systems -->
+                    <div class="col-md-6 col-lg-4">
+
+                        <article class="portfolio-card">
+
+                            <div class="portfolio-card-body">
+
+                                <div class="interest-icon">
+                                    <i class="bi bi-database-fill"></i>
+                                </div>
+
+                                <span class="section-label">
+                                    Database Systems
+                                </span>
+
+                                <h3>
+                                    SQL and Relational Databases
+                                </h3>
+
+                                <p>
+                                    Working with database concepts such as relational
+                                    design, tables, keys, relationships, SQL queries,
+                                    data organization, and structured information.
+                                </p>
+
+                                <p>
+                                    Database projects help me understand how applications
+                                    store, organize, retrieve, and manage information in a
+                                    reliable and efficient way.
+                                </p>
+
+                                <div class="mt-3">
+                                    <span class="badge text-bg-light me-1">
+                                        SQL
+                                    </span>
+
+                                    <span class="badge text-bg-light me-1">
+                                        Data Modeling
+                                    </span>
+
+                                    <span class="badge text-bg-light">
+                                        Relational Design
+                                    </span>
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- Python -->
+                    <div class="col-md-6 col-lg-4">
+
+                        <article class="portfolio-card">
+
+                            <div class="portfolio-card-body">
+
+                                <div class="interest-icon">
+                                    <i class="bi bi-filetype-py"></i>
+                                </div>
+
+                                <span class="section-label">
+                                    Python
+                                </span>
+
+                                <h3>
+                                    Programming and Automation
+                                </h3>
+
+                                <p>
+                                    Using Python to practice structured programming,
+                                    numerical computing, data processing, problem solving,
+                                    and reusable software-development techniques.
+                                </p>
+
+                                <p>
+                                    Python projects have strengthened my experience with
+                                    functions, classes, data structures, libraries, testing,
+                                    debugging, and computational thinking.
+                                </p>
+
+                                <div class="mt-3">
+                                    <span class="badge text-bg-light me-1">
+                                        Python
+                                    </span>
+
+                                    <span class="badge text-bg-light me-1">
+                                        NumPy
+                                    </span>
+
+                                    <span class="badge text-bg-light">
+                                        Pandas
+                                    </span>
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- Data Analysis -->
+                    <div class="col-md-6 col-lg-4">
+
+                        <article class="portfolio-card">
+
+                            <div class="portfolio-card-body">
+
+                                <div class="interest-icon">
+                                    <i class="bi bi-bar-chart-fill"></i>
+                                </div>
+
+                                <span class="section-label">
+                                    Data Analysis
+                                </span>
+
+                                <h3>
+                                    Exploring and Understanding Data
+                                </h3>
+
+                                <p>
+                                    Analyzing structured datasets using Python and SQL to
+                                    organize information, identify patterns, summarize
+                                    results, and support data-driven understanding.
+                                </p>
+
+                                <p>
+                                    This area has helped me develop stronger skills in data
+                                    cleaning, transformation, aggregation, visualization,
+                                    and interpretation.
+                                </p>
+
+                                <div class="mt-3">
+                                    <span class="badge text-bg-light me-1">
+                                        Pandas
+                                    </span>
+
+                                    <span class="badge text-bg-light me-1">
+                                        SQL
+                                    </span>
+
+                                    <span class="badge text-bg-light">
+                                        Data Analysis
+                                    </span>
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- Cybersecurity -->
+                    <div class="col-md-6 col-lg-4">
+
+                        <article class="portfolio-card">
+
+                            <div class="portfolio-card-body">
+
+                                <div class="interest-icon">
+                                    <i class="bi bi-shield-lock-fill"></i>
+                                </div>
+
+                                <span class="section-label">
+                                    Cybersecurity
+                                </span>
+
+                                <h3>
+                                    Security and Digital Forensics
+                                </h3>
+
+                                <p>
+                                    Studying information security, digital evidence,
+                                    forensic methods, secure computing practices, risk,
+                                    authentication, integrity, and investigative processes.
+                                </p>
+
+                                <p>
+                                    Cybersecurity work has helped me understand the
+                                    importance of protecting systems and preserving the
+                                    reliability and integrity of digital information.
+                                </p>
+
+                                <div class="mt-3">
+                                    <span class="badge text-bg-light me-1">
+                                        Security
+                                    </span>
+
+                                    <span class="badge text-bg-light me-1">
+                                        Forensics
+                                    </span>
+
+                                    <span class="badge text-bg-light">
+                                        Integrity
+                                    </span>
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- Machine Learning -->
+                    <div class="col-md-6 col-lg-4">
+
+                        <article class="portfolio-card">
+
+                            <div class="portfolio-card-body">
+
+                                <div class="interest-icon">
+                                    <i class="bi bi-cpu-fill"></i>
+                                </div>
+
+                                <span class="section-label">
+                                    Machine Learning
+                                </span>
+
+                                <h3>
+                                    Data-Driven Models
+                                </h3>
+
+                                <p>
+                                    Exploring machine-learning concepts, data preparation,
+                                    numerical computation, model development, evaluation,
+                                    and common workflows used in predictive systems.
+                                </p>
+
+                                <p>
+                                    Machine-learning projects have helped me connect
+                                    programming and mathematics with practical approaches
+                                    for learning patterns from data.
+                                </p>
+
+                                <div class="mt-3">
+                                    <span class="badge text-bg-light me-1">
+                                        Machine Learning
+                                    </span>
+
+                                    <span class="badge text-bg-light me-1">
+                                        Scikit-learn
+                                    </span>
+
+                                    <span class="badge text-bg-light">
+                                        Python
+                                    </span>
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- Deep Learning -->
+                    <div class="col-md-6 col-lg-4">
+
+                        <article class="portfolio-card">
+
+                            <div class="portfolio-card-body">
+
+                                <div class="interest-icon">
+                                    <i class="bi bi-diagram-3-fill"></i>
+                                </div>
+
+                                <span class="section-label">
+                                    Deep Learning
+                                </span>
+
+                                <h3>
+                                    Neural Networks and Optimization
+                                </h3>
+
+                                <p>
+                                    Learning how neural networks use forward computation,
+                                    gradients, backpropagation, optimization, regularization,
+                                    and numerical frameworks to train models.
+                                </p>
+
+                                <p>
+                                    This work has helped me strengthen my understanding of
+                                    automatic differentiation, computational graphs, and
+                                    model-training workflows.
+                                </p>
+
+                                <div class="mt-3">
+                                    <span class="badge text-bg-light me-1">
+                                        Neural Networks
+                                    </span>
+
+                                    <span class="badge text-bg-light me-1">
+                                        PyTorch
+                                    </span>
+
+                                    <span class="badge text-bg-light">
+                                        Backpropagation
+                                    </span>
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- Software Development -->
+                    <div class="col-md-6 col-lg-4">
+
+                        <article class="portfolio-card">
+
+                            <div class="portfolio-card-body">
+
+                                <div class="interest-icon">
+                                    <i class="bi bi-code-square"></i>
+                                </div>
+
+                                <span class="section-label">
+                                    Software Development
+                                </span>
+
+                                <h3>
+                                    Structured Problem Solving
+                                </h3>
+
+                                <p>
+                                    Developing programs with attention to organization,
+                                    readability, debugging, testing, maintainability, and
+                                    careful problem decomposition.
+                                </p>
+
+                                <p>
+                                    Software-development practice has helped me become more
+                                    comfortable translating requirements into working
+                                    technical solutions.
+                                </p>
+
+                                <div class="mt-3">
+                                    <span class="badge text-bg-light me-1">
+                                        Programming
+                                    </span>
+
+                                    <span class="badge text-bg-light me-1">
+                                        Debugging
+                                    </span>
+
+                                    <span class="badge text-bg-light">
+                                        Testing
+                                    </span>
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- Artificial Intelligence -->
+                    <div class="col-md-6 col-lg-4">
+
+                        <article class="portfolio-card">
+
+                            <div class="portfolio-card-body">
+
+                                <div class="interest-icon">
+                                    <i class="bi bi-robot"></i>
+                                </div>
+
+                                <span class="section-label">
+                                    Artificial Intelligence
+                                </span>
+
+                                <h3>
+                                    Intelligent Computing
+                                </h3>
+
+                                <p>
+                                    Exploring how intelligent systems can use algorithms,
+                                    data, models, and computational methods to perform
+                                    tasks that require pattern recognition and reasoning.
+                                </p>
+
+                                <p>
+                                    Artificial-intelligence coursework continues to help me
+                                    understand the connection between computation, data,
+                                    learning systems, and real-world applications.
+                                </p>
+
+                                <div class="mt-3">
+                                    <span class="badge text-bg-light me-1">
+                                        AI
+                                    </span>
+
+                                    <span class="badge text-bg-light me-1">
+                                        Algorithms
+                                    </span>
+
+                                    <span class="badge text-bg-light">
+                                        Intelligent Systems
+                                    </span>
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             TOOLS AND TECHNOLOGIES
+        ====================================================== -->
+        <section class="content-section">
+
+            <div class="container">
+
+                <div class="text-center mb-5">
+
+                    <span class="section-label">
+                        Technical Toolkit
+                    </span>
+
+                    <h2 class="section-title">
+                        Tools and Technologies
+                    </h2>
+
+                    <p class="section-description">
+                        I continue to build experience with programming languages,
+                        frameworks, libraries, development environments, and technical
+                        tools used across my coursework and projects.
+                    </p>
+
+                </div>
+
+
+                <div class="row g-4">
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <article class="content-card h-100 text-center">
+
+                            <div class="interest-icon mx-auto">
+                                <i class="bi bi-code-slash"></i>
+                            </div>
+
+                            <h3>
+                                Languages
+                            </h3>
+
+                            <p>
+                                Python, HTML, CSS, SQL, and other programming concepts
+                                used throughout my technical coursework.
+                            </p>
+
+                        </article>
+
+                    </div>
+
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <article class="content-card h-100 text-center">
+
+                            <div class="interest-icon mx-auto">
+                                <i class="bi bi-boxes"></i>
+                            </div>
+
+                            <h3>
+                                Libraries
+                            </h3>
+
+                            <p>
+                                NumPy, Pandas, machine-learning libraries, and tools used
+                                for data processing and numerical computation.
+                            </p>
+
+                        </article>
+
+                    </div>
+
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <article class="content-card h-100 text-center">
+
+                            <div class="interest-icon mx-auto">
+                                <i class="bi bi-tools"></i>
+                            </div>
+
+                            <h3>
+                                Development Tools
+                            </h3>
+
+                            <p>
+                                Visual Studio Code, GitHub, Jupyter notebooks, command-line
+                                tools, and local web-development environments.
+                            </p>
+
+                        </article>
+
+                    </div>
+
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <article class="content-card h-100 text-center">
+
+                            <div class="interest-icon mx-auto">
+                                <i class="bi bi-bootstrap-fill"></i>
+                            </div>
+
+                            <h3>
+                                Web Technologies
+                            </h3>
+
+                            <p>
+                                Bootstrap, responsive layout techniques, forms, navigation,
+                                page linking, and custom CSS design.
+                            </p>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             DEVELOPMENT APPROACH
+        ====================================================== -->
+        <section class="interest-section py-5">
+
+            <div class="container">
+
+                <div class="text-center mb-5">
+
+                    <span class="section-label">
+                        Project Process
+                    </span>
+
+                    <h2 class="section-title">
+                        How I Approach Technical Work
+                    </h2>
+
+                </div>
+
+
+                <div class="row g-4">
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <article class="interest-card h-100 text-center">
+
+                            <div class="interest-icon mx-auto">
+                                <i class="bi bi-journal-text"></i>
+                            </div>
+
+                            <h3>
+                                Understand
+                            </h3>
+
+                            <p>
+                                I begin by reviewing the requirements and identifying the
+                                problem that needs to be solved.
+                            </p>
+
+                        </article>
+
+                    </div>
+
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <article class="interest-card h-100 text-center">
+
+                            <div class="interest-icon mx-auto">
+                                <i class="bi bi-diagram-2-fill"></i>
+                            </div>
+
+                            <h3>
+                                Plan
+                            </h3>
+
+                            <p>
+                                I break larger tasks into smaller components and organize
+                                the structure before building the final solution.
+                            </p>
+
+                        </article>
+
+                    </div>
+
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <article class="interest-card h-100 text-center">
+
+                            <div class="interest-icon mx-auto">
+                                <i class="bi bi-hammer"></i>
+                            </div>
+
+                            <h3>
+                                Build
+                            </h3>
+
+                            <p>
+                                I implement the solution carefully while keeping the code,
+                                content, and design organized.
+                            </p>
+
+                        </article>
+
+                    </div>
+
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <article class="interest-card h-100 text-center">
+
+                            <div class="interest-icon mx-auto">
+                                <i class="bi bi-check2-circle"></i>
+                            </div>
+
+                            <h3>
+                                Test
+                            </h3>
+
+                            <p>
+                                I review the result, test functionality, correct problems,
+                                and verify that the requirements have been satisfied.
+                            </p>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             CALL TO ACTION
+        ====================================================== -->
+        <section class="home-cta py-5">
+
+            <div class="container">
+
+                <div class="cta-box text-center">
+
+                    <h2>
+                        Want to Learn More?
+                    </h2>
+
+                    <p>
+                        Visit the About page to learn more about my background, or use
+                        the Contact page to send me a message.
+                    </p>
+
+                    <div class="mt-4">
+
+                        <a
+                            href="about.html"
+                            class="btn hero-primary-btn"
+                        >
+                            <i class="bi bi-person-fill me-2"></i>
+                            About Me
+                        </a>
+
+                        <a
+                            href="contact.html"
+                            class="btn hero-secondary-btn ms-sm-2"
+                        >
+                            <i class="bi bi-envelope-fill me-2"></i>
+                            Contact Me
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================== -->
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="row align-items-center gy-3">
+
+                <div class="col-lg-5 text-center text-lg-start">
+
+                    <h3 class="footer-name">
+                        Uday Singh
+                    </h3>
+
+                    <p class="footer-description mb-0">
+                        Personal Portfolio Website
+                    </p>
+
+                </div>
+
+
+                <div class="col-lg-7">
+
+                    <nav
+                        class="footer-navigation"
+                        aria-label="Footer navigation"
+                    >
+
+                        <ul class="footer-menu">
+
+                            <li>
+                                <a href="terms.html">
+                                    Terms and Conditions
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="privacy.html">
+                                    Privacy Policy
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="cookies.html">
+                                    Cookie Policy
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </nav>
+
+                </div>
+
+            </div>
+
+
+            <hr class="footer-divider">
+
+
+            <div class="text-center">
+
+                <p class="copyright mb-0">
+                    &copy; 2026 Uday Singh. All rights reserved.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================================================
+         BOOTSTRAP JAVASCRIPT
+    ========================================================== -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
+
+</body>
+
+</html>
